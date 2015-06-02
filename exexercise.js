@@ -149,12 +149,12 @@ function longest(){
 // .pop()
     var pstr= ["yellow", "green", "purple", "apple"];
     var z = pstr.pop();
-    console.log("this is what was popped off " + z);
+    console.log("this is what was popped off " + z); //pops off the last element "apple"
 
 // .push()
     var pushStr= ["one", "two", "three", "four"];
     var nLength= pushStr.push("five");
-    console.log(nLength); //logs 5
+    console.log(nLength); //logs 5 since there are now 5 elements in the array
 
 // .slice()
     var fullArray= ["stove", "microwave", "fridge", "sink", "pots", "pans", "coffeepot "];
@@ -164,6 +164,7 @@ function longest(){
 // .splice()
     var spArray= fullArray.splice(6, 1, "dishes");
     console.log(spArray); //coffeepot
+    console.log(fullArray);
 
 // .shift()
     var remove= fullArray.shift();
